@@ -1,0 +1,54 @@
+header {
+    margin: -0.5em;  
+    padding: -1em;
+    background-color: darkcyan;
+    border-radius: 23px;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    display: grid;
+    position: relative;
+    left: 16em;
+    top: 2em;
+    color: white;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    display: grid;
+    position: relative;
+    left: 23em;
+    top: -1em;
+ 
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    margin: -0.5em;
+    padding: 1em;
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border-radius: 230px;
+    color: white;
+}
+
+#lastupdated {
+    color: black;
+    grid-column: 1/ 4;
+    text-align: center;
+}
+
+body {
+    max-width: 1000px;
+    margin: 5em;
+}
