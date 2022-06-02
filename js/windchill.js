@@ -22,7 +22,6 @@ function windChill (airTemp, windSpeed) {
 
 let computedTemp = fahrToCel(temp);
 let windChillFactor = windChill(computedTemp, wind)
-
 windChillFactor = windChillFactor.toFixed(2)
 
 
