@@ -263,7 +263,7 @@ main div:not(:nth-child(2)) p{
 }
 .hero{
     grid-area: hero;
-    background-image: url(../images/courier.jpg);
+    background-image: url(../images/hero.jpg);
     background-size: cover;
     position: relative;
 }
