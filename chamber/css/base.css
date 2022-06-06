@@ -231,6 +231,7 @@ main div:not(:nth-child(2)) p{
 }
 .event{
     grid-area: event;
+    background-color: lightblue;
 }
 .news{
     grid-area: news;
@@ -258,6 +259,10 @@ main div:not(:nth-child(2)) p{
     
 }
 .weather img{
+    width: 100%;
+    height: auto;
+}
+.event img{
     width: 100%;
     height: auto;
 }
