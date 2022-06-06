@@ -231,7 +231,7 @@ main div:not(:nth-child(2)) p{
 }
 .event{
     grid-area: event;
-    background-color: orange;
+    background-color: lightblue;
 }
 .news{
     grid-area: news;
