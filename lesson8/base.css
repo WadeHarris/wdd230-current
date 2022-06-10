@@ -6,7 +6,7 @@ table {
     
     box-shadow: 15px 15px 20px grey;
 
-    margin: 100px;
+    margin: 150px;
 
     width: 70%;
 
@@ -15,35 +15,35 @@ table {
 }
 
 table thead tr:nth-child(1) th, tfoot, tbody tr:nth-child(4) td:nth-child(3) {
-    background-color: cadetblue;
+    background-color: lightblue;
 }
 
 tbody tr:nth-child(4) td:nth-child(3) {
-    color: #fff;
+    color: whitesmoke;
 }
 
 table thead tr:nth-child(1) th {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 table thead tr:nth-child(2) th {
-    color: #fff;
-    background-color: rgb(4, 66, 66);
+    color: whitesmoke;
+    background-color: darkcyan;
 }
 
 th {
-    border: 1px solid #666;
+    border: 1px solid grey;
     padding: 10px;
 }
 
 td {
-    border: 1px solid #666;
+    border: 1.5px solid grey;
     padding: 2px;
-    width: 50px;
+    width: 55px;
 }
 
 tbody tr:nth-child(1), tbody tr:nth-child(3), tbody tr:nth-child(5) {
-    background-color: #DCDCDC;
+    background-color: whitesmoke;
 }
 
 tbody tr:nth-child(2), tbody tr:nth-child(4), tbody tr:nth-child(6) {
