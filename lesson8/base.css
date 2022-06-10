@@ -4,7 +4,7 @@ table {
 
     text-align: center;
     
-    box-shadow: 15px 15px 20px grey;
+    box-shadow: 10px 10px 15px grey;
 
     margin-left: 150px;
 
@@ -37,9 +37,9 @@ th {
 }
 
 td {
-    border: 1.5px solid grey;
+    border: 1px solid grey;
     padding: 2px;
-    width: 55px;
+    width: 50px;
 }
 
 tbody tr:nth-child(1), tbody tr:nth-child(3), tbody tr:nth-child(5) {
@@ -54,7 +54,7 @@ tbody tr:nth-child(2), tbody tr:nth-child(4), tbody tr:nth-child(6) {
     table {
         width: 350px;
         height: 360px;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     td {
