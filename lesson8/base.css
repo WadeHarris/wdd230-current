@@ -52,9 +52,9 @@ tbody tr:nth-child(2), tbody tr:nth-child(4), tbody tr:nth-child(6) {
 
 @media only screen and (min-width: 32.5em) {
     table {
-        width: 364px;
-        height: 367px;
-        font-size: 1rem;
+        width: 350px;
+        height: 360px;
+        font-size: 1.5rem;
     }
 
     td {
