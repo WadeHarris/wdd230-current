@@ -1,0 +1,20 @@
+@media only screen and (min-width: 64rem){
+    header h1{
+        font-size: 3.5rem;
+    }
+    main {
+        grid-template-columns: 20% 60% 20%;
+        grid-template-areas: 
+        'banner banner banner'
+        'event hero spot1'
+        'weather hero spot2'
+        'join news spot3';
+    }
+    #hero-title {
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 2rem;
+        color: white;
+
+    }
+}
