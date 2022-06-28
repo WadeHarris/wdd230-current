@@ -1,0 +1,31 @@
+body {
+    font-size: 20px;
+    max-width: 1000px;
+    margin-left: 10rem;
+  }
+  
+  h1 {
+    color:#4088A3;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    text-shadow: 0 0 5px darkcyan;
+    text-align: center;
+  }
+  
+  h2 {
+    color: blue;
+    margin: 0;
+    width: auto;
+    text-align: center;
+  }
+  
+  
+  p {
+    width: auto;
+    text-align: center;
+  }
+  
+  .weather {
+    width: auto;
+    text-align: center;
+  }
