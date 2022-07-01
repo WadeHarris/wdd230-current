@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athlone Chamber of Commerce</title>
+    <meta name="description" content="Athlone Chamber of Commerce ">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logopicture.webp" alt="logo">
+            <h1>Athlone Chamber Of Commerce</h1>
+            <div class="social-links-container">
+                <a href="https://www.facebook.com"><img src="images/facebooklogo2.PNG" alt="facebook icon"></a>
+                <a href="https://www.twitter.com"><img src="images/twitterlogo2.PNG" alt="twitter icon"></a>
+
+            </div>
+        </div>
+       
+        <nav>
+            <button id="menu-btn" onclick="toggleMenu();"><span>&#9776;</span><span>X</span></button>
+            <ul class="navigation" id="primaryNav">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p class="date">test</p>
+        </nav>
+        
+
+    </header>
+    <main class="join">
+        <div>
+            <h2>Membership Tiers and Benefits</h2>
+            <h3>NPO Membership</h3>
+            <ul>
+                <li>For non profit organizations</li>
+                <li>There are no fees</li>
+                <li>Advertising on the Chamber webpage for your NPO</li>
+            </ul>
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>$30/monthly fee</li>
+                <li>Perfect for businesses</li>
+                <li>Advertising on the Chamber webpage</li>
+            </ul>
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>$50/monthly fee</li>
+                <li>One free monthly training course on advertising for your business</li>
+                <li>Extra advertising on the Chamber webpage</li>
+            </ul>
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>$100/monthly fee</li>
+                <li>Top placement for advertising your business</li>
+                <li>Access to free marketing training courses</li>
+
+            </ul>
+        </div>
+        <div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name: <input type="text" name="fname" required></label>
+                <label class="top">Last Name: <input type="text" name="lname" required></label>
+                <label class="top">Occupation Title: <input type="text" name="title" pattern="[A-Za-z- ]{7,}"></label>
+                <label class="top">Email: <input type="email" name="email" placeholder="someone@example.com" required></label>
+                <label class="top">Phone: <input type="tel" name="tel" placeholder="1234562468" required></label>
+                <label class="top">Business Name: <input type="text" name="title" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="np"> NPO Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <label class="top">What is your business?<input type="textarea" name="description"></label>
+                <input type="datetime-local" name="currentdate" hidden>
+            </fieldset>
+            <input type="submit" value="Join the Chamber" class="submit-button">
+        </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo-container-footer">
+            <img src="images/logopicture.webp" alt="logo">
+            <h4></h4> Chamber of Commerce</h4>
+        </div>
+        <div class="info-container-footer">
+            <h3>info@athlonechamber.com</h3>
+            <h3>(021) 789 3443</h3>
+            <h3>Location Map</h3>
+        </div>
+        <ul>
+            <li>&copy;<span class="current_year"></span>Wade Harris</li>
+            <li>WDD230 Project</li>
+            <li>Cape Town, South Africa</li>
+            
+        </ul>
+        <p>Last Updated: <span class="last_updated"></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

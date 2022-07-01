@@ -1,0 +1,364 @@
+*{
+    margin: 0.2rem;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: darkslategray;
+    padding: .5rem 0;
+}
+h1 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-align: center;
+}
+h2 {
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 2rem;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: .1rem;
+}
+.logo-container img{
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+}
+.logo-container h1{
+    font-size: 1rem;
+}
+.social-links-container{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 190px;
+    height: 90px;
+}
+.social-links-container img{
+    width: 15px;
+    height: 15px;
+    margin-right: 1px;
+}
+.navigation{
+    list-style: none;
+}
+.navigation li a {
+    color: whitesmoke;
+}
+.navigation li a:hover{
+    color: lightblue;
+}
+
+nav button{
+    margin: .4rem;
+    padding: .5rem;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: #555;
+    cursor: pointer;
+    background-color:#bce7cd;
+}
+nav .navigation{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+
+.date{
+    font-size: smaller;
+    text-align: center;
+    margin-left: 2rem;
+    color: black;
+    padding: .3rem 0rem;
+}
+
+#menu-btn span:nth-child(1){
+    display: block;
+}
+#menu-btn span:nth-child(2){
+    display: none;
+}
+#menu-btn.open span:nth-child(1){
+    display: none;
+}
+#menu-btn.open span:nth-child(2){
+    display: block;
+}
+
+.logo-container h1{
+    font-size: 1rem;
+}
+
+main div{
+    min-height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: .8rem;
+    margin: .8rem;
+}
+footer{
+    background-color: darkslategray;
+    padding: .5rem 0;
+    color: white;   
+    display: grid;
+    grid-template-columns: 10fr;
+    place-items: center 50px;
+}
+p{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+.logo-container-footer{
+    
+    place-items: left;
+    justify-content: left;
+    justify-items: left;
+    margin-left: 2rem;
+}
+.logo-container-footer img{
+    border-radius: 15px;
+    max-width: 90px;
+    width: 100%;
+    justify-items: center;
+    margin-left: 2rem;
+}
+.info-container-footer{
+    text-align: right;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer ul li{
+    padding: .5rem;
+    place-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 'banner'
+     'hero'
+                        'event'
+                        'weather'
+                        'news'
+                        'join'
+                        'spot1'
+                        'spot2'
+                        'spot3';
+}
+main div:not(:nth-child(2)){
+    padding: 1rem;
+    background-color: lightblue;
+}
+main div:not(:nth-child(2)) img{
+    width: 85%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+main div:not(:nth-child(2)) h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+}
+main div:not(:nth-child(2)) img{
+    width: 100%;
+    height: auto;
+    margin-top: .2rem;
+    border-radius: 5px;
+}
+main div:not(:nth-child(2)) p{
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.join-btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+.join-btn:hover{
+    background-color: darkslategray;
+    transform: scale(1.01);
+}
+.banner{
+    grid-area: banner;
+    background-color:darkslategray;
+    
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    position: relative;
+    display: none;
+}
+.banner p {
+    position: absolute;
+    color: black;
+}
+.show-banner{
+    display: block;
+}
+.event{
+    grid-area: event;
+    background-color: lightblue;
+}
+.news{
+    grid-area: news;
+}
+.spotlight1{
+    grid-area: spot1;
+}
+.weather{
+    grid-area: weather;
+}
+.temp-text{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.spotlight2{
+    grid-area: spot2;
+    
+}
+.join{
+    grid-area: join;
+    text-align: center;
+}
+.spotlight3{
+    grid-area: spot3;
+    
+}
+.weather img{
+    width: 100%;
+    height: auto;
+}
+.event img{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+}
+.hero{
+    grid-area: hero;
+    background-image: url(../images/wdd230-org.jpg);
+    background-size: cover;
+    position: relative;
+}
+#hero-title {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 2rem;
+}
+.hero-cta{
+    position: absolute;
+    right: 40%;
+    bottom: 35%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
+.hero-cta:hover{
+    background-color: lightseagreen;
+    transform: scale(1.01);
+}
+
+#discover-main{
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.discover-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+.discover-section .discover-description-container{
+    width: 50%;
+}
+.discover-section picture{
+    width: 50%
+}
+
+.discover-section picture img{
+    width: 100%;
+    height: auto;
+    border-radius:  .8rem;
+    transition: all .3s ease-in;
+}
+.discover-section picture img:hover{
+    transform: scale(1.02);
+}
+
+.discover-section .discover-description-container h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: darkslategrey;
+}
+
+section img{
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 .2rem .1rem lightblue;
+}
+
+section img[data-src] {
+    filter: blur(0.3em);
+    opacity: 0.5;
+  }
+  
+section img {
+    opacity: 1;
+    transition: opacity .3s;
+  }
+
+.visits-message{
+    text-align: center;
+    padding: 1rem 0 1rem 0
+}
+
+.sbs{
+    background-color: gold;
+}
