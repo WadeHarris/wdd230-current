@@ -383,7 +383,6 @@ h1{
 	padding-left: 1rem;
 	padding-right: 1rem;
 	border: 1px solid #040404;
-  box-shadow: 3px 3px 10px rgb(32, 13, 1); 
 }
 
 .directory_box img{
@@ -395,7 +394,6 @@ h1{
 	color: white;
 	background-color: #0E53A2;
 	padding: 10px 30px;
-	box-shadow: 3px 3px 10px rgb(32, 13, 1)
 }
 
 .grid {
@@ -420,7 +418,7 @@ h1{
 }
 
 .list section h2{
-	text-shadow: 3px 3px 10px rgb(32, 13, 1);
+
 	padding-bottom: 1.5rem;
 }
 
