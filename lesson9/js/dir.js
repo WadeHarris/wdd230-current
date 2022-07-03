@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/WadeHarris/wdd230-current/blob/main/lesson9/data.json';
+const requestURL = 'https://';
 const directoryBox = document.querySelector('.directory_box');
 
 

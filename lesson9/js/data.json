@@ -1,0 +1,87 @@
+{
+    "directoryOfBusiness": [
+    {
+        "name": "Aneesas",
+        "address": "Athlone, 56 Jason street ",
+        "phone": "(021)456 0679",
+        "website": "www.aneesas.com",
+        "logoImage": "aneesas.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Spicy food"
+        
+    },
+    {
+        "name": "Pedros Chicken",
+        "address": "Athlone, 14 Jump street, Cape Town",
+        "phone": "(021)342 7643",
+        "website": "www.pedros.com",
+        "logoImage": "pedros.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Chicken"
+    },
+    {
+        "name": "Zone Fitness",
+        "address": "Athlone, 20 Blame street, Cape Town",
+        "phone": "(95)4857-3243",
+        "website": "www.zone.com",
+        "logoImage": "zone.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "Gym"
+    },
+    {
+        "name": "Arrow Tyres",
+        "address": "Athlone, 90 Corner street, Cape Town",
+        "phone": "(021)865 5565",
+        "website": "www.arrowtyres.com",
+        "logoImage": "arrow.webp",
+        "membership": "Silver Level",
+        "msjSpot": "Tyres"
+    },
+    {
+        "name": "Bubbly Foods",
+        "address": "Athlone, 3 Garden street, Athlone",
+        "phone": "(082)199 5490",
+        "website": "www.bubblyfoods.com",
+        "logoImage": "bubbly.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "Live to eat"
+    },
+    {
+        "name": "Breys Butcher",
+        "address": "Athlone, 56 Bamford avenue, Cape Town",
+        "phone": "(021)213 9876",
+        "website": "www.breys.com",
+        "logoImage": "breys.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Butcher meat"
+    },
+    {
+        "name": "Pick n Pay",
+        "address": "Athlone, 5 Jameson road, Cape Town",
+        "phone": "(021)455 6532",
+        "website": "www.picknpay.com",
+        "logoImage": "picknpay.webp",
+        "membership": "Silver Level",
+        "msjSpot": "Food for all"
+    },
+    {
+        "name": "Checkers Grocery Store",
+        "address": "Athlone, 9 Bankers street, Cape Town",
+        "phone": "(021)234 5656",
+        "website": "www.checkers.com",
+        "logoImage": "checkers.webp",
+        "membership": "Bronze Level",
+        "msjSpot": "Groceries for the family"
+    },
+    {
+        "name": "The Crazy Toy Story",
+        "address": "Athlone, 45 Newton street, Cape Town",
+        "phone": "(021)789 0023",
+        "website": "www.crazytoystory.com",
+        "logoImage": "crazystore.webp",
+        "membership": "Gold Level",
+        "msjSpot": "Toys for kids"
+    }
+  ]
+}
+  
