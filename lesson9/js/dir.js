@@ -1,4 +1,4 @@
-const requestURL = 'https://';
+const requestURL = 'https://wadeharris.github.io/wdd230-current/chamber/data.json';
 const directoryBox = document.querySelector('.directory_box');
 
 
