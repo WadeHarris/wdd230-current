@@ -426,10 +426,6 @@ h1{
 	padding-left: 1rem;
 }
 
-.list section:nth-last-of-type(even) {
-	background-color: #84827F;
-}
-
 .list section img{
 	display: none;
 }
