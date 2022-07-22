@@ -1,0 +1,56 @@
+{
+    "temples": [
+        {
+            "img": "images/salt-lake-temple-card.png",
+            "name": "Salt Lake City Temple",
+            "address": "50 W North Temple St, Salt lake City, Utah 84150-9709, United States",
+            "phone": "Phone: N/A",
+            "email": "Email: N/A",
+            "tempServices": ["Unavailable untill opening"],
+            "hotelServices": ["Unavailable until opening"],
+            "history": ["28 July 1847 - Announced","14 February 1853 - Groundbreaking","6 April 1893 - Dedicated"],
+            "ordinances": "Closed for Renovations",
+            "sessions": "Closed for Renovations",
+            "closure": ["Closed untill further notice"]
+        },
+        {
+            "img": "images/chicago-temple-card.png",
+            "name": "Chicago Illinois Temple",
+            "address": "4151 W Lake Ave, Glenview, IL 60025-1240, United States",
+            "phone": "(1) 847-299-6500",
+            "email": "Email: N/A",
+            "tempServices": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+            "hotelServices": ["Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes","Long-term stay accommodations in kitchenette suites for full-time temple missionaries","Temple history themed reception and sitting area","A family search center that supports family search and ordinance work","A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving"],
+            "history": ["1 April 1981 - Announced","13 August 1983 - Groundbreaking","9 August 1985 - Dedicated","8 October 1989 - Rededicated"],
+            "ordinances": "Appointments are required for members to receive their own ordinances (endowment and sealing). Call or email the temple to schedule this type of appointment.",
+            "sessions": "Appointments for proxy ordinances are encouraged. Patrons without appointments are also welcome, but may be asked to wait for an opportunity to participate.",
+            "closure": ["Monday, 29 August 2022 - Monday, 12 September 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022","Monday, 28 August 2023 - Monday, 11 September 2023"]
+        },
+        {
+            "img": "images/gilbert-temple-card.png",
+            "name": "Gilbert Arizona Temple",
+            "address": "3301 S Greenfield Rd, Gilbert, AZ 85297, United States",
+            "phone": "(1) 480-822-5000",
+            "email": "Email: N/A",
+            "tempServices": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+            "hotelServices": ["Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes","A playroom and low-cost, short-term babysitting services for the children of patrons","Long-term stay accommodations in kitchenette suites for full-time temple missionaries","A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving"],
+            "history": ["10 April 2008 - Announced","13 November 2010 - Groundbreaking","2 March 2014 - Dedicated"],
+            "ordinances": "Appointments are required for members to receive their own ordinances (endowment and sealing). Call or email the temple to schedule this type of appointment.",
+            "sessions": "Appointments for proxy ordinances are encouraged. Patrons without appointments are also welcome, but may be asked to wait for an opportunity to participate.",
+            "closure": ["Saturday, 1 October 2022","Monday, 3 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
+        },
+        {
+            "img": "images/las-vegas-temple-card.png",
+            "name": "Las Vegas Nevada Temple",
+            "address": "827 Temple View Dr, Las Vegas, Nevada, 89110-2920, United States",
+            "phone": "(1) 702-452-5011",
+            "email": "Email: N/A",
+            "tempServices": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+            "hotelServices": ["Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes","Long-term stay accommodations in kitchenette suites for full-time temple missionaries","A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving","A family search center that supports family search and ordinance work"],
+            "history": ["7 April 1984 - Announced","30 November 1985 - Groundbreaking","16 December 1989 - Dedicated"],
+            "ordinances": "Appointments are required for members to receive their own ordinances (endowment and sealing). Call or email the temple to schedule this type of appointment.",
+            "sessions": "Appointments for proxy ordinances are encouraged. Patrons without appointments are also welcome, but may be asked to wait for an opportunity to participate.",
+            "closure": ["Monday, 11 July 2022 - Monday, 25 July 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022","Monday, 9 January 2023 - Monday, 23 January 2023","Monday, 24 July 2023 - Monday, 23 October 2023"]
+        }
+    ]
+}

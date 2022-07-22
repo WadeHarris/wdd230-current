@@ -1,0 +1,374 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*------------------------Header----------------------------*/
+header {
+    margin: 1em;
+    padding: .5em;
+}
+
+#heading {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo {
+    padding: .5em;
+    margin: .5em;
+    background-color: khaki;
+    border-radius: 60px;
+}
+
+#logo-head {
+    padding: .5em;
+    margin: .5em;
+    background-color: khaki;
+    border-radius: 60px;
+}
+
+.social-logo {
+    border-radius: 50px;
+    width: 55px;
+    padding: .5em;
+}
+
+/*----------------------Navigation-------------------------------*/
+nav {
+    background-color: darkkhaki;
+    text-align: left;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: darkkhaki;
+    color: white;
+}
+
+nav ul li.active a:hover {
+    background-color: white;
+    color: darkkhaki;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn {
+    text-align: right;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+
+/*-------------------------Home-------------------------------*/
+h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
+}
+
+#home-reservation {
+    
+    padding: .5em;
+    padding-top: 1.5em;
+    margin: 1em;
+}
+
+#home-reservation a {
+    background-color: lightgreen;
+    font-family: 'Playfair Display', serif;
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin: 1em;
+}
+
+#home-contact {
+    background-color: lightblue;
+    margin: 1em;
+    padding: .5em;
+}
+
+#home-weather {
+    background-color: #dcdcdc;
+    margin: 1em;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#home-weather div {
+    border: 1px solid darkcyan;
+}
+
+#current-weather {
+    grid-column: 1/ 4;
+    grid-row: 1/ 2;
+}
+
+#tomorrow-weather {
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
+}
+
+#second-weather {
+    grid-column: 2/ 3;
+    grid-row: 2/ 3;
+}
+
+#third-weather {
+    grid-column: 3/ 4;
+    grid-row: 2/ 3;
+}
+
+#temple-summary {
+    padding: .5em;
+    margin: 1.5em;
+    background-color: khaki;
+}
+
+li {
+    list-style: none;
+}
+
+#temp-sum-home {
+    margin: 1em;
+    max-width: 80%;
+}
+/*-----------------------------Temples------------------------------*/
+section {
+    background-color: lightblue;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+
+
+/*------------------------------------Reservation----------------------------*/
+#reservation {
+    max-width: 700px;
+}
+
+form label.reservation-info, form label.room-info {
+    display: block;
+    color: #1e90ff;
+}
+
+form label.reservation-info input:required, form label.room-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.reservation-info input:required:valid, form label.room-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.reservation-info input, label.room-info input {
+    display: block;
+    margin: auto auto 1em auto;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+label.list-info input {
+    display: block;
+}
+
+form div {
+    color: #1e90ff;
+    padding: .5em;
+}
+
+#location-div, #room-div {
+    color: black;
+}
+
+#location-div {
+    padding-bottom: 1em;
+    padding: 1em;
+}
+
+/*--------------------------------Services---------------------------------*/
+figure {
+    background-color: #dcdcdc;
+    padding: 1em;
+    margin: 1em;
+}
+
+figcaption a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #1e90ff;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+#services-list, #amenities-list {
+    background-color: lightblue;
+    margin: 1em;
+    padding: .5em;
+}
+
+#playroom, #pool {
+    margin: 1em;
+}
+
+/*------------------------Reception-----------------------------*/
+#reception-content div {
+    background-color: lightblue;
+    margin: 1em;
+    padding: .5em;
+}
+
+#reception-one {
+    background-color: white;
+}
+
+/*------------------------Missionary----------------------------*/
+#missionary-content div {
+    background-color: lightblue;
+    margin: 1em;
+    padding: .5em;
+    padding-top: 1.5em;
+}
+
+form {
+    background-color: khaki;
+    border-radius: 20px;
+    padding: .5em;
+    margin: 1em;
+}
+
+form fieldset {
+    margin: 1em;
+    border-radius: 20px;
+    padding: .5em;
+    border: none;
+}
+
+legend {
+    margin: 1em;
+    color: #1e90ff;
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+}
+
+form label.question-info {
+    display: block;
+    color: #1e90ff;
+
+}
+
+form label.question-info input:required {
+    border-left: red solid 6px;
+}
+
+form label.question-info input:required:valid {
+    border-left: green solid 6px;
+}
+
+label.question-info input {
+    display: block;
+    margin: auto auto 1em auto;
+    padding: .5em;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 20em;
+    border-radius: 10px;
+}
+
+/*---------------------------Footer-----------------------------*/
+footer {
+    background-color: #dcdcdc;
+    color: black;
+    margin: 1em;
+    padding: .5em .5em 0 .5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#updated {
+    background-color: darkcyan;
+    padding: .5em;
+    margin: 1em -.5em 0 -.5em;
+}

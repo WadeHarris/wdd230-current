@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for Temple Inn & Suites hotel that provides information about reservations and accomodations, as well as specialized services. A project done by Madalyn Mounts for WDD 230: Web Frontend Development at BYU-Idaho.">
+    <title>Temple Inn & Suites | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div id="heading">
+            <img class="logo" id="logo-head" src="images/logo.jpg" alt="Temple Inn & Suites logo">
+            <h1 id="title">Temple Inn and Suites</h1>
+            <h2>A more fulfilling experience</h2>
+            <div id="head-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebooklogo2.PNG" alt="facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="social-logo" src="images/twitterlogo2.PNG" alt="twitter"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home-content">
+            <div id="home-img">
+                <picture>
+                    <source media="(max-width: 559px)" srcset="images/salt-lake-temple-small.png">
+                    <source media="(min-width: 560px)" srcset="images/salt-lake-temple-large.png">
+                    <img src="images/placeholder.png" data-src="images/salt-lake-temple-small.png" alt="The Salt Lake Temple in front of a body of water">
+                </picture>
+            </div>
+
+            <div id="home-reservation">
+                <a href="reservation.html">Reservations</a>
+            </div>
+
+            <div id="home-contact">
+                <h2>Contact Us Now</h2>
+                <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                <p>(999) 999-9999</p>
+            </div>
+
+            <section id="home-weather">
+
+                <div id="current-weather">
+                    <h2>Today's Weather</h2>
+                    <img id="weather-icon">
+                    <h2><span id="temp"></span> F</h2>
+                    <p id="description"></p>
+                    <p>Humidity: <span id="humid"></span>%</p>
+                </div>
+
+                <div id="tomorrow-weather">
+                    <h3>Tomorrow</h3>
+                    <img id="second-weather-icon">
+                    <h4><span id=second-temp></span> F</h4>
+                    <p id="second-desc"></p>
+                </div>
+
+                <div id="second-weather">
+                    <h3>Day 2</h3>
+                    <img id="third-weather-icon">
+                    <h4><span id=third-temp></span> F</h4>
+                    <p id="third-desc"></p>
+                </div>
+
+                <div id="third-weather">
+                    <h3>Day 3</h3>
+                    <img id="fourth-weather-icon">
+                    <h4><span id=fourth-temp></span> F</h4>
+                    <p id="fourth-desc"></p>
+                </div>
+
+            </section>
+        
+            <div id="temple-summary">
+                <img id="temp-sum-home" src="images/saltlake.jpg" alt="The Boise Idaho temple">
+                <h2>Salt Lake City Temple</h2>
+                <h3>Address:</h3>
+                <p>50 N W Temple St, Salt Lake City, UT 84150, United States</p>
+                <h3>Telephone:</h3>
+                <p>+1 801-240-2640</p>
+                <h3>Summary</h3>
+                <p>Salt Lake Temple is a temple of The Church of Jesus Christ of Latter-day Saints. It's the largest Latter-day Saint temple and it was dedicated in 1893.</p>
+                </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        
+        <div id="contact-info">
+        </div>
+
+        <div id="footer-links">
+            <p id="weather-data">Weather by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank">Location Map</a>
+            <div id="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebooklogo2.PNG" alt="Blue Facebook logo"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="social-logo" src="images/twitterlogo2.PNG" alt="Blue Instagram logo"></a>
+            </div>
+        </div>
+        <p id="updated">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+
+    <script src="js/lastupdated.js"></script>
+    <script src="js/hamburgerbutton.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/lazyloading.js"></script>
+</body>
+</html>

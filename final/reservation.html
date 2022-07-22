@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for Temple Inn & Suites hotel that provides information about reservations and accomodations, as well as specialized services. A project done by Madalyn Mounts for WDD 230: Web Frontend Development at BYU-Idaho.">
+    <title>Temple Inn & Suites | Reservations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div id="heading">
+            <img class="logo" id="logo-head" src="images/logo.jpg" alt="Temple Inn & Suites logo">
+            <h1 id="title">Temple Inn and Suites</h1>
+            <h2>A more fulfilling experience</h2>
+            <div id="head-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebooklogo2.PNG" alt="facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="social-logo" src="images/twitterlogo2.PNG" alt="twitter"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Reservation Form</h2>
+        <form id="reservation" method="get" action="reservation-thank-you.html">
+            <fieldset>
+                <legend>Client Details</legend>
+                <label class="reservation-info">First Name <input type="text" name="fname" required></label>
+                <label class="reservation-info">Last Name <input type="text" name="lname" required></label>
+                <label class="reservation-info">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="reservation-info">Cell Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="reservation-info">Home State or Country <input type="text" name="state"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Room Selection</legend>
+
+                <div>Hotel Location</div>
+                <div id="location-div">
+                    <label class="list-info"><input type="radio" name="location" value="saltlake"> Salt Lake City, Utah</label>
+                    <label class="list-info"><input type="radio" name="location" value="gilbert"> Gilbert, Arizona</label>
+                    <label class="list-info"><input type="radio" name="location" value="chicago"> Chicago, Illinois</label>
+                    <label class="list-info"><input type="radio" name="location" value="lasvegas"> Las Vegas, Nevada</label>
+                    <label class="list-info"><input type="radio" name="location" value="boise"> Boise, Idaho</label>
+                </div>
+
+                <label class="room-info">Arrival Date <input type="date" name="staydate" required></label>
+                <label class="room-info">Number of Rooms <input type="number" name="roomsnum" required></label>
+
+                <div>Type of Rooms</div>
+                <div id="room-div">
+                    <label class="list-info"><input type="checkbox" name="hall" value="yes">Reception Hall</label>
+                    <label class="list-info"><input type="checkbox" name="standard" value="yes">Standard (Two-Bed)</label>
+                    <label class="list-info"><input type="checkbox" name="suite" value="yes">Suite (Two-Bed with Kitchenette)</label>
+                    <label class="list-info"><input type="checkbox" name="youth" value="yes">Youth Trip (Three-Bed)</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Requests</legend>
+                <textarea name="about" placeholder="Please type here"></textarea>
+            </fieldset>
+
+            <input type="submit" value="Complete" class="submitBtn">
+        </form>
+
+    </main>
+
+    <footer>
+        
+        <div id="contact-info">
+        </div>
+
+        <div id="footer-links">
+            <p id="weather-data">Weather by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank">Location Map</a>
+            <div id="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebooklogo2.PNG" alt="Blue Facebook logo"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="social-logo" src="images/twitterlogo2.PNG" alt="Blue Instagram logo"></a>
+            </div>
+        </div>
+        <p id="updated">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+
+    <script src="js/lastupdated.js"></script>
+    <script src="js/hamburgerbutton.js"></script>
+    <script src="js/lazyloading.js"></script>
+</body>
+</html>

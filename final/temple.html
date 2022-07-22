@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for Temple Inn & Suites hotel that provides information about reservations and accomodations, as well as specialized services. A project done by Madalyn Mounts for WDD 230: Web Frontend Development at BYU-Idaho.">
+    <title>Temple Inn & Suites | Temples</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div id="heading">
+            <img class="logo" id="logo-head" src="images/logo.jpg" alt="Temple Inn & Suites logo">
+            <h1 id="title">Temple Inn and Suites</h1>
+            <h2>A more fulfilling experience</h2>
+            <div id="head-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebooklogo2.PNG" alt="facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="social-logo" src="images/twitterlogo2.PNG" alt="twitter"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Temples</h2>
+
+        <div id="missionary-content">
+            <div id="room-one">
+                <img id="temp-sum-home" src="images/saltlake.jpg" alt="The Boise Idaho temple">
+                <h2>Salt Lake City Temple</h2>
+                <h3>Address:</h3>
+                <p>50 N W Temple St, Salt Lake City, UT 84150, United States</p>
+                <h3>Telephone:</h3>
+                <p>+1 801-240-2640</p>
+                <h3>Summary</h3>
+                <p>Salt Lake Temple is a temple of The Church of Jesus Christ of Latter-day Saints. It's the largest Latter-day Saint temple and it was dedicated in 1893.</p>
+                
+            </div>
+
+            <div id="room-two">
+                <img id="temp-sum-home" src="images/temple2.jpg.crdownload" alt="The Boise Idaho temple">
+                <h2>Rome Temple</h2>
+                <h3>Address: Via di Settebagni 376, Rome RM, Italy</h3>
+                <h3>Telephone:</h3>
+                <p>(39) 06-9480-5050</p>
+                <h3><Summary></Summary></h3>
+                <p>Rome Temple is one of the most beautiful temples in the world. It was dedicated in 2008. Today there are many services such as </p>
+            </div>
+
+            <div id="room-three">
+                <img id="temp-sum-home" src="images/temple3.jpg" alt="The Boise Idaho temple">
+                <h2>Gilbert Arizona Temple</h2>
+                <h3>Address:</h3>
+                <p> 3301 S Greenfield Rd, Gilbert, AZ 85297, United States</p>
+                <h3>Telephone:</h3>
+                <p>+1 480-822-5000</p>
+                <h3>Summary</h3>
+                <p>The Gilbert Arizona Temple at 3301 South Greenfield Road at the corner of East Pecos Road in Gilbert, Arizona, is a temple of The Church of Jesus Christ of Latter-day Saints. The design of the temple was overseen by Gregory B. Lambright of Architekton. The temple was dedicated in 2014</p>
+            </div>
+
+            <div id="room-four">
+                <img id="temp-sum-home" src="images/temple4.jpg" alt="The Boise Idaho temple">
+                <h2>Las Vegas Temple</h2>
+                <h3>Address:</h3>
+                <p>827 Temple View Dr, Las Vegas, NV 89110, United States</p>
+                <h3>Telephone:</h3>
+                <p>+1 702-452-5011</p>
+                <h3>Summary</h3>
+                <p>As the Las Vegas temple is well known and hosts multiple visiors each year. The temple was dedicated in 1989.</p>
+            </div>
+        </div>
+
+        <div class="cards"></div>
+    </main>
+
+    <footer>
+        
+        <div id="contact-info">
+        </div>
+
+        <div id="footer-links">
+            <p id="weather-data">Weather by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" target="_blank">Location Map</a>
+            <div id="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-logo" src="images/facebooklogo2.PNG" alt="Blue Facebook logo"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="social-logo" src="images/twitterlogo2.PNG" alt="Blue Instagram logo"></a>
+            </div>
+        </div>
+        <p id="updated">Last Updated: <span id="lastUpdated"></span></p>
+    </footer>
+
+    <script src="js/lastupdated.js"></script>
+    <script src="js/hamburgerbutton.js"></script>
+    <script src="js/lazyloading.js"></script>
+    <script src="js/temples.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@media only screen and (min-width: 75rem) {
+    /*-------------------Header-----------------------*/
+    h1 {
+        font-size: 48px;
+    }
+
+    .social-logo {
+        border-radius: 50px;
+        width: 75px;
+        padding: .5em;
+    }
+    /*----------------------Home----------------------------*/
+    #home-content {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 375px 1fr;
+    }
+
+    #home-img {
+        grid-column: 2/ 3;
+        grid-row: 1/ 2;
+    }
+
+    #home-reservation {
+        grid-column: 1/ 2;
+        grid-row: 1/ 2;
+    }
+
+    #home-contact {
+        grid-column: 3/ 4;
+        grid-row: 1/ 2;
+    }
+
+    #home-weather {
+        grid-column: 1/ 4;
+        grid-row: 2/ 3;
+    }
+
+    #temple-summary {
+        grid-column: 1/ 4;
+        grid-row: 3/ 4;
+    }
+
+    #home-weather {
+        display: grid;
+        grid-template-columns: 500px 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+    #current-weather {
+        grid-column: 1/ 2;
+        grid-row: 1/ 2;
+    }
+    
+    #tomorrow-weather {
+        grid-column: 2/ 3;
+        grid-row: 1/ 2;
+    }
+    
+    #second-weather {
+        grid-column: 3/ 4;
+        grid-row: 1/ 2;
+    }
+    
+    #third-weather {
+        grid-column: 4/ 5;
+        grid-row: 1/ 2;
+    }
+
+    #temple-summary {
+        max-width: 1000px;
+    }
+
+    /*------------------Temples--------------------------------*/
+    .cards {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards img {
+        float: none;
+    }
+
+    .cards section {
+        padding-bottom: .5em;
+    }
+
+    /*-----------------------Reception-------------------------------*/
+    #reception-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #reception-one {
+        grid-column: 1/ 4;
+        grid-row: 1/ 2;
+    }
+
+    #hall-one {
+        grid-column: 1/ 2;
+        grid-row: 2/ 3;
+    }
+
+    #reception-two {
+        grid-column: 2/ 3;
+        grid-row: 2/ 3;
+    }
+
+    #hall-two {
+        grid-column: 3/ 4;
+        grid-row: 2/ 3;
+    }
+
+    #reception-three {
+        grid-column: 1/ 2;
+        grid-row: 3/ 4;
+    }
+
+    #hall-three {
+        grid-column: 2/ 3;
+        grid-row: 3/ 4;
+    }
+
+    #reception-four {
+        grid-column: 3/ 4;
+        grid-row: 3/ 4;
+    }
+
+    /*---------------------Footer---------------------------*/
+    
+}

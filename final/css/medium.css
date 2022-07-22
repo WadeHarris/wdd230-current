@@ -1,0 +1,200 @@
+@media only screen and (min-width: 45em) {
+    /*--------------------------Header--------------------------------*/
+    h1 {
+        font-size: 36px;
+    }
+
+    /*------------------------Navigation-------------------------------*/
+    nav {
+        background-color: darkkhaki;
+        float: none;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .5rem 1rem;
+    }
+
+    nav ul li.active a {
+        background-color: darkkhaki;
+        color: none;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    nav ul li.active a:hover {
+        background-color: rgb(114, 112, 77);
+        color: white;
+    }
+
+    nav ul li a:hover {
+        border-radius: 10px 10px 0 0;
+    }
+    /*---------------------------Home------------------------------------*/
+    #home-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #home-img {
+        grid-column: 1/ 3;
+    }
+
+    #home-reservation {
+        grid-column: 1/ 2;
+    }
+
+    #home-contact {
+        grid-column: 2/ 3;
+    }
+
+    #home-weather {
+        grid-column: 1/ 3;
+    }
+
+    #temple-summary {
+        grid-column: 1/ 3;
+    }
+
+    #home-reservation {
+        padding-top: 4em;
+    }
+    
+    #home-reservation a {
+        padding: 1em;
+        font-size: 1.15em;
+        margin: 1.5em;
+    }
+
+    #home-reservation p {
+        margin-top: 4em;
+    }
+
+    /*----------------------------Temples---------------------------------*/
+    
+    
+    .cards {
+        text-align: left;
+    }
+
+    .cards img {
+        float: left;
+        margin: 1em;
+    }
+
+    /*-------------------------Services------------------------------------*/
+    #services-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 275px 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    #services-list {
+        grid-column: 1/ 2;
+        grid-row: 2/ 4;
+    }
+    
+    #amenities-list {
+        grid-column: 2/ 3;
+        grid-row: 3/ 5;
+    }
+    
+    #playroom {
+        grid-column: 2/ 3;
+        grid-row: 4/ 5;
+        margin: 0 auto;
+    }
+
+    #pool {
+        grid-column: 1/ 2;
+        grid-row: 2/ 3;
+        margin: 0 auto;
+    }
+
+    /*---------------------------Reception----------------------------*/
+    #reception-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #reception-one {
+        grid-column: 1/ 3;
+        grid-row: 1/ 2;
+    }
+
+    #hall-one {
+        grid-column: 1/ 2;
+        grid-row: 2/ 3;
+
+    }
+
+    #reception-two {
+        grid-column: 3/ 4;
+        grid-row: 2/ 3;
+    }
+
+    #hall-two {
+        grid-column: 2/ 3;
+        grid-row: 3/ 4;
+    }
+
+    #reception-three {
+        grid-column: 1/ 2;
+        grid-row: 3/ 4;
+    }
+
+    #hall-three {
+        grid-column: 1/ 2;
+        grid-row: 4/ 5;
+    }
+
+    #reception-four {
+        grid-column: 2/ 3;
+        grid-row: 4/ 5;
+    }
+
+    #reception-content div {
+        background-color: lightblue;
+        margin: 1em;
+        padding: .5em;
+    }
+    
+    /*------------------------Missionary----------------------------*/
+    #missionary-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    textarea {
+        font-size: 1.25em;
+    }
+    
+    .submitBtn {
+        padding: 1em;
+        font-size: 1.25em;
+        margin-bottom: 1em;
+    }
+
+    /*-----------------------Footer----------------------------------*/
+    
+
+    
+}
